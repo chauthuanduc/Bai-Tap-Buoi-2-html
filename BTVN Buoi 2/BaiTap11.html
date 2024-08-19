@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 11</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F2F2;
+            color: #333;
+        }
+        #pagecontent {
+            margin: 0 auto;
+            max-width: 1045px;
+            min-width: 480px;
+            width: 100%;
+            background-color: #E6E6E6;
+            padding: 20px;
+        }
+        header, footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ccc;
+            margin-bottom: 20px;
+        }
+        nav {
+            background-color: #ccc;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0000CC;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+        }
+        section {
+            background-color: #E0E0E0;
+            padding: 15px;
+            flex: 2;
+            margin-right: 20px;
+        }
+        aside {
+            background-color: #E0E0E0;
+            padding: 15px;
+            flex: 1;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .article-content a {
+            text-decoration: none;
+            color: #0000CC;
+        }
+    </style>
+</head>
+<body>
+    <div id="pagecontent">
+        <header>
+            <h1>HTML5 Structure</h1>
+            <img src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/BIT_logo.png" alt="Logo Khoa Công nghệ Thông tin Kinh doanh">
+        </header>
+
+        <nav>
+            <a href="#">Chương trình Đại học</a>
+            <a href="#">CT Liên thông Đại học</a>
+            <a href="#">Chương trình Sau đại học</a>
+            <a href="#">Chương trình quốc tế</a>
+        </nav>
+
+        <div class="main-section">
+            <section>
+                <h2>Chương trình Đại học</h2>
+                <div class="article-content">
+                    <a href="#">Hệ thống hoạch định nguồn lực doanh nghiệp (ERP)</a>
+                    <p>Nhu cầu xã hội Hoạch định các nguồn lực một cách hiệu quả để nhắm đến mục tiêu giảm chi phí, tăng sức cạnh tranh là một vấn đề mà mọi doanh nghiệp luôn phải đối mặt, nhất là trong thời kỳ hội nhập hiện nay. Hệ thống hoạch định nguồn lực doanh nghiệp (ERP) [...]</p>
+                    <img src="https://bit.ueh.edu.vn/wp-content/uploads/2018/05/ERP.jpg" alt="Hệ thống hoạch định nguồn lực doanh nghiệp (ERP)">
+                </div>
+            </section>
+
+            <aside>
+                <h2>Liên kết</h2>
+                <div class="article-content">
+                    <a href="#">Hệ thống thông tin kinh doanh</a>
+                    <p>Nhu cầu xã hội Hiện nay, ứng dụng công nghệ trong điều hành doanh nghiệp đang được các nhà quản lý quan tâm.</p>
+                    <img src="https://huongnghiep.hocmai.vn/wp-content/uploads/2022/01/1-118.png" alt="Hệ thống thông tin kinh doanh">
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>© 2024 Khoa Công nghệ Thông tin Kinh doanh</p>
+        </footer>
+    </div>
+</body>
+</html>
